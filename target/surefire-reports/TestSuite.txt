@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 57.413 s <<< FAILURE! - in TestSuite
+loginErrorValidation(ofaqa.tests.ErrorValidationsTest)  Time elapsed: 0.902 s  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect emailor password.]
+	at ofaqa.tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:19)
+
